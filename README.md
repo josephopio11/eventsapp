@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EventTribe
+
+This is a free app for you to plan your events.
 
 ## Getting Started
 
-First, run the development server:
+First, clone this repo to a directory using the command
+
+```bash
+git clone git_url
+
+```
+
+Install all the dependencies using `npm i` or `yarn`.
+
+Create a mongodb database and connect your app to the database by entering the information in the environment file
+
+Create a `.env.local` file and add all the required environment variables using the template below:
+
+```bash
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=************************************
+CLERK_SECRET_KEY=**************************************
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+MONGODB_URL=*****************************
+```
+
+You can then run the development server: using
 
 ```bash
 npm run dev
@@ -15,10 +42,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
