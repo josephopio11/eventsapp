@@ -7,7 +7,7 @@ This is a free app for you to plan your events.
 First, clone this repo to a directory using the command
 
 ```bash
-git clone git_url
+git clone https://github.com/josephopio11/eventsapp.git
 
 ```
 
@@ -35,10 +35,6 @@ You can then run the development server: using
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
