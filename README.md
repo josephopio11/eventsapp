@@ -26,7 +26,7 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-MONGODB_URL=*****************************
+MONGODB_URI=*****************************
 ```
 
 You can then run the development server: using
